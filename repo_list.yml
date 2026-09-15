@@ -13,8 +13,8 @@ include_repos:
  # - 'e*pt'
  # - 'e*-*'
  # - '*example*'
- # - 'vu*'
-  - 'e*pt'
+ # - '*'
+  - '*'
   - 'f*'
   - '*vul*'
 
