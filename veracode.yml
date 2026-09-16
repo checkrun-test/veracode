@@ -1,9 +1,9 @@
 actions:
   veracode_static_scan:
   build:
-    runs_on: ubuntu-latest
+    runs_on: windows-latest
     predependency_command: |
-      npm ci
+      pipx install pipenv
 veracode_static_scan:
   push:
     trigger: true
