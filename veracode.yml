@@ -1,4 +1,5 @@
-veracode_static_scan:
+actions:
+  veracode_static_scan:
   build:
     runs_on: ubuntu-latest
     predependency_command: |
