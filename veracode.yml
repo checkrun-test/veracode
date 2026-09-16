@@ -1,4 +1,9 @@
 veracode_static_scan:
+  build:
+    runs_on: ubuntu-latest
+    predependency_command: |
+      npm ci
+veracode_static_scan:
   push:
     trigger: true
     # Please only specify either branches_to_run or branches_to_exclude
