@@ -1,10 +1,10 @@
 default:
-  #runs_on: windows-latest
+  #runs_on: ubuntu-latest
 actions:
   veracode_static_scan:
     build:
-      runs_on: windows-latest
-      predependency_command: pipx install pipenv
+      runs_on: ubuntu-latest
+      predependency_command: pip install pipenv
 veracode_static_scan:
   push:
     trigger: true
