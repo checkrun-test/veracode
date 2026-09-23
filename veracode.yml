@@ -4,7 +4,7 @@ actions:
   veracode_static_scan:
     build:
       runs_on: ubuntu-latest
-      predependency_command: pip install pipenv
+      predependency_command: sudo apt install -y htop
 veracode_static_scan:
   push:
     trigger: true
